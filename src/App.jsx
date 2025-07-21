@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { AppLayout } from "./layouts/app.layout";
 import { Landing } from "./pages/Landing";
-import { Dashboard } from "./pages/dashboard";
-import { Auth } from "./pages/auth";
-import { RedirectLink } from "./pages/redirect-link";
+import { Dashboard } from "./pages/Dashboard";
+import { Auth } from "./pages/Auth";
+import { RedirectLink } from "./pages/Redirect-link";
 import UrlProvider from "./Context";
 import RequireAuth from "./components/ui/require-auth";
 import { LinkPage } from "./pages/Link";
